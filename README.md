@@ -18,7 +18,7 @@ sudo apt-get -y install build-essential cmake
 ```
 ### Python 
 ```
-python3 -m pip install --upgrade pip cmake scikit-build gmxapi
+python3 -m pip install --upgrade pip cmake scikit-build
 ```
 
 ## Install 
