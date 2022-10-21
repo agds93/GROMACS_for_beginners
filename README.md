@@ -14,10 +14,11 @@ https://www.nvidia.com/en-sg/data-center/gpu-accelerated-applications/gromacs/
 ## Dependencies
 ### Compilers and CMake
 ```
-sudo apt-get -y install build-essential cmake
+sudo apt -y install build-essential cmake
 ```
 ### Python 
 ```
+sudo apt -y install python3 python3-doc python3-pip
 python3 -m pip install --upgrade pip cmake scikit-build
 ```
 
