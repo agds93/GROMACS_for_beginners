@@ -1,6 +1,6 @@
 **Author**: Alessandro Giudice
 
-# GROMACS for beginners
+# GROMACS for beginners (Ubuntu)
 
 This guide is for `GROMACS 2022.3` version. For the next versions, you must change version number in the latest installation guide.  
 https://manual.gromacs.org/documentation/current/install-guide/index.html  
