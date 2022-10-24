@@ -5,16 +5,17 @@ This guide is for `GROMACS 2022.3` version. For the next versions, you must chan
 
 ## Documentation
 GROMACS's official installation guide (a simpler one is below):  
-https://manual.gromacs.org/documentation/current/install-guide/index.html  
+[https://manual.gromacs.org/documentation/current/install-guide/index.html](https://manual.gromacs.org/documentation/current/install-guide/index.html)  
 
 GROMACS tutorials:  
-http://www.mdtutorials.com/gmx/  
+[https://manual.gromacs.org/2022/user-guide/index.html](https://manual.gromacs.org/current/user-guide/index.html)  
+[http://www.mdtutorials.com/gmx/](http://www.mdtutorials.com/gmx/)  
 
 CUDA GPUs:  
-https://developer.nvidia.com/cuda-gpus  
-https://www.nvidia.com/en-sg/data-center/gpu-accelerated-applications/gromacs/
+[https://developer.nvidia.com/cuda-gpus](https://developer.nvidia.com/cuda-gpus)
 
 ## Ubuntu and its derivatives (e.g. Linux Mint)
+
 ### Dependencies
 #### Compilers and CMake
 ```
@@ -26,8 +27,8 @@ sudo apt -y install python3 python3-doc python3-pip
 python3 -m pip install --upgrade pip cmake scikit-build
 ```
 ### Install 
-https://manual.gromacs.org/documentation/#latest-releases   
-Full instructions are
+[https://manual.gromacs.org/documentation/#latest-releases](https://manual.gromacs.org/documentation/#latest-releases)  
+Open terminal, then copy and paste these lines:
 ```
 wget https://ftp.gromacs.org/gromacs/gromacs-2022.3.tar.gz
 tar xfz gromacs-2022.3.tar.gz
@@ -50,7 +51,7 @@ gmx
 ```
 #### Install gmxapi  
 To use GROMACS with Python  
-https://manual.gromacs.org/current/gmxapi/userguide/install.html
+[https://manual.gromacs.org/current/gmxapi/userguide/install.html](https://manual.gromacs.org/current/gmxapi/userguide/install.html)
 ```
 python3 -m pip install --upgrade cmake scikit-build gmxapi
 ```
