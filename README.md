@@ -1,4 +1,6 @@
-**Author**: Alessandro Giudice
+**Author**: Alessandro Giudice  
+
+[![Donate with PayPal](https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)](https://www.paypal.com/donate/?hosted_button_id=WWSJK522GMUVC)
 
 # GROMACS for beginners
 This guide is for `GROMACS 2022.3` version. For the next versions, you must change version number in the instructions.  
@@ -8,7 +10,7 @@ GROMACS's official installation guide (a simpler one is below):
 [https://manual.gromacs.org/documentation/current/install-guide/index.html](https://manual.gromacs.org/documentation/current/install-guide/index.html)  
 
 GROMACS tutorials:  
-[https://manual.gromacs.org/2022/user-guide/index.html](https://manual.gromacs.org/current/user-guide/index.html)  
+[https://manual.gromacs.org/current/user-guide/index.html](https://manual.gromacs.org/current/user-guide/index.html)  
 [http://www.mdtutorials.com/gmx/](http://www.mdtutorials.com/gmx/)  
 
 CUDA GPUs:  
@@ -61,7 +63,7 @@ It is sufficient to delete the following folder
 cd /usr/local/
 sudo rm -rf gromacs
 ```
-then remove the GROMACS's environment variable and uninstall `gmxapi` pip package
+then remove eventual GROMACS's environment variable and uninstall `gmxapi` pip package
 ```
 python3 -m pip uninstall gmxapi
 ```
