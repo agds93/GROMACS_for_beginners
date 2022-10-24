@@ -1,7 +1,7 @@
 **Author**: Alessandro Giudice  
 
 <a href="https://www.paypal.com/donate/?hosted_button_id=WWSJK522GMUVC">
-<img alt="" src="https://raw.githubusercontent.com/aha999/DonateButtons/master/Paypal.png" width="175" height="auto">
+<img alt="" src="https://raw.githubusercontent.com/agds93/GROMACS_for_beginners/main/img/Paypal.png" width="175" height="auto">
 </a>
 
 # GROMACS for beginners
