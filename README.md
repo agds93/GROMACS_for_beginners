@@ -1,14 +1,17 @@
 **Author**: Alessandro Giudice
 
 # GROMACS for beginners
-This installation guide is for `GROMACS 2022.3` version.  
-For the next versions, you must change version number in the latest installation guide.  
+This guide is for `GROMACS 2022.3` version. For the next versions, you must change version number in the instructions.  
+
+## Documentation
+GROMACS's official installation guide (a simpler one is below):  
 https://manual.gromacs.org/documentation/current/install-guide/index.html  
 
-If you want some tutorials:  
+GROMACS tutorials:  
 http://www.mdtutorials.com/gmx/  
 
-If you have a CUDA enabled GPU:  
+CUDA GPUs:  
+https://developer.nvidia.com/cuda-gpus  
 https://www.nvidia.com/en-sg/data-center/gpu-accelerated-applications/gromacs/
 
 ## Ubuntu and its derivatives (e.g. Linux Mint)
