@@ -1,6 +1,8 @@
 **Author**: Alessandro Giudice  
 
-[![Donate with PayPal](https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)](https://www.paypal.com/donate/?hosted_button_id=WWSJK522GMUVC)
+<a href="https://www.paypal.com/donate/?hosted_button_id=WWSJK522GMUVC">
+<img alt="" src="https://raw.githubusercontent.com/aha999/DonateButtons/master/Paypal.png" width="175" height="auto">
+</a>
 
 # GROMACS for beginners
 This guide is for `GROMACS 2022.3` version. For the next versions, you must change version number in the instructions.  
