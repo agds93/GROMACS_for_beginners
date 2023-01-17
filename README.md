@@ -5,7 +5,7 @@
 </a>
 
 # GROMACS for beginners
-This guide is for `GROMACS 2022.3` version. For the next versions, you must change version number in the instructions.  
+This guide is for `GROMACS 2022.4` version. For the next versions, you must change version number in the instructions.  
 
 ## Documentation
 GROMACS's official installation guide (a simpler one is below):  
@@ -39,9 +39,9 @@ python3 -m pip install --upgrade pip cmake scikit-build
 ### Install GROMACS  
 Open terminal, then copy and paste these lines:
 ```
-wget https://ftp.gromacs.org/gromacs/gromacs-2022.3.tar.gz
-tar xfz gromacs-2022.3.tar.gz
-cd gromacs-2022.3
+wget https://ftp.gromacs.org/gromacs/gromacs-2022.4.tar.gz
+tar xfz gromacs-2022.4.tar.gz
+cd gromacs-2022.4
 mkdir build
 cd build
 cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
@@ -49,8 +49,8 @@ make -j 4
 make -j 4 check
 sudo make install
 cd
-rm gromacs-2022.3.tar.gz
-rm -rf gromacs-2022.3
+rm gromacs-2022.4.tar.gz
+rm -rf gromacs-2022.4
 ```
 **NOTE**: If your system support more (or less) of 4 jobs, you can change -j option value.  
 Checking your installation and using GROMACS:  
