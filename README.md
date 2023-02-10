@@ -4,8 +4,9 @@
 <img alt="" src="https://raw.githubusercontent.com/agds93/GROMACS_for_beginners/main/img/Paypal.png" width="175" height="auto">
 </a>
 
-# GROMACS for beginners
-This guide is for `GROMACS 2022.4` version. For the next versions, you must change version number in the instructions.  
+# [GROMACS](https://www.gromacs.org/) for beginners
+This guide is for `GROMACS 2023` version. For the next versions, you must change version number in the instructions.  
+The typical version name is `GROMACS year.number`, where `year` is the year of the major release and `number` is the number of the minor release. For example `GROMACS 2022.4` is the fourth minor release of the 2022 version. The minor updates can continue even after the release year.
 
 ## Documentation
 GROMACS's official installation guide (a simpler one is below):  
@@ -13,8 +14,11 @@ GROMACS's official installation guide (a simpler one is below):
 
 GROMACS releases:  
 [https://manual.gromacs.org/documentation/#latest-releases](https://manual.gromacs.org/documentation/#latest-releases)
+[https://manual.gromacs.org/documentation/current/download.html](https://manual.gromacs.org/documentation/current/download.html)
+[https://manual.gromacs.org/current/release-notes/index.html](https://manual.gromacs.org/current/release-notes/index.html)
 
 GROMACS tutorials:  
+[https://tutorials.gromacs.org/md-intro-tutorial.html](https://tutorials.gromacs.org/md-intro-tutorial.html) 
 [https://manual.gromacs.org/current/user-guide/index.html](https://manual.gromacs.org/current/user-guide/index.html)  
 [http://www.mdtutorials.com/gmx/](http://www.mdtutorials.com/gmx/)  
 
@@ -39,9 +43,9 @@ python3 -m pip install --upgrade pip cmake scikit-build
 ### Install GROMACS  
 Open terminal, then copy and paste these lines:
 ```
-wget https://ftp.gromacs.org/gromacs/gromacs-2022.4.tar.gz
-tar xfz gromacs-2022.4.tar.gz
-cd gromacs-2022.4
+wget https://ftp.gromacs.org/gromacs/gromacs-2023.tar.gz
+tar xfz gromacs-2023.tar.gz
+cd gromacs-2023
 mkdir build
 cd build
 cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
@@ -49,10 +53,10 @@ make -j 4
 make -j 4 check
 sudo make install
 cd
-rm gromacs-2022.4.tar.gz
-rm -rf gromacs-2022.4
+rm gromacs-2023.tar.gz
+rm -rf gromacs-2023
 ```
-**NOTE**: If your system support more (or less) of 4 jobs, you can change -j option value.  
+**NOTE**: If your machine/system supports more (or less) of 4 jobs, you can change `-j` option value.  
 Checking your installation and using GROMACS:  
 ```
 source /usr/local/gromacs/bin/GMXRC
