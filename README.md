@@ -5,8 +5,8 @@
 </a>
 
 # [GROMACS](https://www.gromacs.org/) for beginners
-This guide is for `GROMACS 2023` version. For the next versions, you must change version number in the instructions.  
-The typical version name is `GROMACS year.number`, where `year` is the year of the major release and `number` is the number of the minor release. For example `GROMACS 2022.4` is the fourth minor release of the 2022 version. The minor updates can continue even after the release year.
+This guide is for `GROMACS 2021.6` version. For the next versions, you must change version number in the instructions.  
+The typical version name is `GROMACS year.number`, where `year` is the year of the major release and `number` is the number of the minor release. For example `GROMACS 2021.6` is the sixth minor release of the 2022 version. The minor updates can continue even after the release year.
 
 ## Documentation
 GROMACS's official installation guide (a simpler one is below):  
@@ -43,9 +43,9 @@ python3 -m pip install --upgrade pip cmake scikit-build
 ### Install GROMACS  
 Open terminal, then copy and paste these lines:
 ```
-wget https://ftp.gromacs.org/gromacs/gromacs-2023.tar.gz
-tar xfz gromacs-2023.tar.gz
-cd gromacs-2023
+wget https://ftp.gromacs.org/gromacs/gromacs-2021.6.tar.gz
+tar xfz gromacs-2021.6.tar.gz
+cd gromacs-2021.6
 mkdir build
 cd build
 cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
@@ -53,8 +53,8 @@ make -j 4
 make -j 4 check
 sudo make install
 cd
-rm gromacs-2023.tar.gz
-rm -rf gromacs-2023
+rm gromacs-2021.6.tar.gz
+rm -rf gromacs-2021.6
 ```
 **NOTE**: If your machine/system supports more (or less) of 4 jobs, you can change `-j` option value.  
 Checking your installation and using GROMACS:  
