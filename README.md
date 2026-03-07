@@ -13,13 +13,13 @@ GROMACS's official installation guide (a simpler one is below):
 [https://manual.gromacs.org/documentation/current/install-guide/index.html](https://manual.gromacs.org/documentation/current/install-guide/index.html)  
 
 GROMACS releases:  
-[https://manual.gromacs.org/documentation/#latest-releases](https://manual.gromacs.org/documentation/#latest-releases)
-[https://manual.gromacs.org/documentation/current/download.html](https://manual.gromacs.org/documentation/current/download.html)
-[https://manual.gromacs.org/current/release-notes/index.html](https://manual.gromacs.org/current/release-notes/index.html)
+[https://manual.gromacs.org/documentation/#latest-releases](https://manual.gromacs.org/documentation/#latest-releases)  
+[https://manual.gromacs.org/documentation/current/download.html](https://manual.gromacs.org/documentation/current/download.html)  
+[https://manual.gromacs.org/current/release-notes/index.html](https://manual.gromacs.org/current/release-notes/index.html)  
 
 GROMACS tutorials:  
-[https://tutorials.gromacs.org/md-intro-tutorial.html](https://tutorials.gromacs.org/md-intro-tutorial.html) 
-[https://manual.gromacs.org/current/user-guide/index.html](https://manual.gromacs.org/current/user-guide/index.html)  
+[https://tutorials.gromacs.org/md-intro-tutorial.html](https://tutorials.gromacs.org/md-intro-tutorial.html)  
+[https://manual.gromacs.org/current/user-guide/index.html](https://manual.gromacs.org/current/user-guide/index.html)    
 [http://www.mdtutorials.com/gmx/](http://www.mdtutorials.com/gmx/)  
 
 gmxapi:   
@@ -57,7 +57,11 @@ rm gromacs-2021.6.tar.gz
 rm -rf gromacs-2021.6
 ```
 **NOTE**: If your machine/system supports more (or less) of 4 jobs, you can change `-j` option value.  
-Checking your installation and using GROMACS:  
+**IMPORTANT**: If you have older versions of GROMACS (such as 2021.x) and more recent GCC compilers (GCC 11, 12, or 13), the compiler fails to recognize `uint64_t` because the explicit inclusion of the `<cstdint>` library is missing in the specified header file. This compatibility issue can be solved with
+```bash
+sed -i '1i #include <cstdint>' ~/Downloads/gromacs-*/src/gromacs/utility/flags.h
+```
+Finally, checking your installation and using GROMACS:  
 ```
 source /usr/local/gromacs/bin/GMXRC
 gmx
